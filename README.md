@@ -1,26 +1,24 @@
 # CODSOFT_task1_calulator
-This is a straightforward Python command-line calculator that performs basic arithmetic operations. It supports addition, subtraction, multiplication, and division. Users interact with the program via the command line, choosing operations and entering numbers.
+This is a simple command-line To-Do List application written in Python. The application allows users to add tasks, view tasks, and mark tasks as done. It provides a basic interface for managing a list of tasks in a console environment.
 
-Features
-Addition: Adds two numbers.
-Subtraction: Subtracts the second number from the first.
-Multiplication: Multiplies two numbers.
-Division: Divides the first number by the second, with basic error handling for division by zero.
-Requirements
+# Features
+Add Task: Allows users to add one or more tasks to the list.
+Show Tasks: Displays all tasks with their current status (Done/Not Done).
+Mark Task as Done: Updates the status of a task to Done based on its number in the list.
+Exit: Exits the application.
+# Requirements
 Python 3.x
-Error Handling
-Invalid Input: If a user selects an invalid operation or enters non-numeric values, the program will display an error message and prompt the user to enter valid inputs.
-Division by Zero: If the user attempts to divide by zero, Python will raise a ZeroDivisionError. This should ideally be handled in a production environment, but this script assumes basic input and does not handle this case explicitly.
 Code Structure
-add(x, y): Returns the sum of x and y.
-subtract(x, y): Returns the difference between x and y.
-multiply(x, y): Returns the product of x and y.
-divide(x, y): Returns the quotient of x divided by y.
+Main Loop: Continuously displays the menu and processes user choices.
+Add Task: Prompts the user to add one or more tasks.
+Show Tasks: Lists all tasks with their status.
+Mark Task as Done: Updates the status of a specified task.
+Exit: Terminates the program.
+# Error Handling
+Invalid Choice: If the user selects an invalid option, the program will prompt them to try again.
+Invalid Task Number: When marking a task as done, if the user enters an invalid task number, the program will display an error message.
 Contributing
-Feel free to contribute by submitting issues or pull requests. Your improvements and suggestions are welcome.
+Feel free to contribute by submitting issues or pull requests. Improvements, additional features, and bug fixes are welcome.
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For any questions or feedback, please contact Your Name.
